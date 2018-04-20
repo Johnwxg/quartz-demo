@@ -83,8 +83,8 @@ public class QuartzConfigration {
      * @return
      */
     @Bean(name = "multitaskScheduler")
-    public SchedulerFactoryBean schedulerFactoryBean(){
-        SchedulerFactoryBean schedulerFactoryBean = new SchedulerFactoryBean();
-        return schedulerFactoryBean;
+        public SchedulerFactoryBean schedulerFactoryBean(){
+            SchedulerFactoryBean schedulerFactoryBean = new SchedulerFactoryBean();
+            return schedulerFactoryBean;
     }
 }

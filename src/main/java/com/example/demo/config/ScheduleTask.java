@@ -14,6 +14,6 @@ import org.springframework.stereotype.Component;
 @EnableScheduling
 public class ScheduleTask {
     public void taskTest(){
-        System.out.print("-----定时任务开始执行----");
+        System.out.println("-----定时任务开始执行----");
     }
 }
